@@ -14,5 +14,4 @@
 - **Draft-statusy**: `meta.draft: boolean` + filtr w `getStaticPaths`
 - **i18n**: podkatalogi `pages/pl/`, `pages/en/` bez CMS
 - **Konflikty edycji**: git-flow z feature-branch per strona + merge request
-- **Rich text**: Decap/Tina dla pól z formatowaniem, reszta zostaje w YAML
 - **Podgląd zmian**: Vercel Preview per branch dla redaktorów
