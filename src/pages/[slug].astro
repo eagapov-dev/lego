@@ -1,0 +1,38 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/sections/Hero.astro';
+import Steps from '../components/sections/Steps.astro';
+import CTA from '../components/sections/CTA.astro';
+import type { Section } from '../content.config';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('pages');
+  return entries.map((entry) => ({
+    params: { slug: entry.data.meta.slug },
+    props: { entry },
+  }));
+}
+
+type Props = { entry: CollectionEntry<'pages'> };
+
+const { entry } = Astro.props;
+const { meta, sections } = entry.data;
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  {sections.map((section) => {
+    switch (section.type) {
+      case 'hero':
+        return <Hero {...section} />;
+      case 'steps':
+        return <Steps {...section} />;
+      case 'cta':
+        return <CTA {...section} />;
+      default: {
+        const _exhaustive: never = section;
+        throw new Error(`Unknown section type: ${JSON.stringify(_exhaustive)}`);
+      }
+    }
+  })}
+</BaseLayout>

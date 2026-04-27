@@ -1,0 +1,28 @@
+---
+import type { StepsProps } from '../../content.config';
+import '../../styles/steps.css';
+
+type Props = StepsProps;
+
+const { id, title, subtitle, label, items } = Astro.props;
+---
+
+<section class="steps" id={id}>
+  <div class="steps__container">
+    <header class="steps__header">
+      {label && <span class="steps__label">{label}</span>}
+      <h2 class="steps__title">{title}</h2>
+      {subtitle && <p class="steps__subtitle">{subtitle}</p>}
+    </header>
+
+    <ol class="steps__list">
+      {items.map((item) => (
+        <li class="step">
+          <span class="step__number">{item.number}</span>
+          <h3 class="step__title">{item.title}</h3>
+          <p class="step__description">{item.description}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

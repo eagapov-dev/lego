@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/index.css';
+
+const pages = await getCollection('pages');
+---
+
+<BaseLayout title="LEGO — Strony" description="Lista dostępnych stron">
+  <main class="index">
+    <h1 class="index__title">Dostępne strony</h1>
+    <ul class="index__list">
+      {pages.map((page) => (
+        <li>
+          <a href={`/${page.data.meta.slug}`} class="index__link">
+            <span class="index__page-title">{page.data.meta.title}</span>
+            <span class="index__page-desc">{page.data.meta.description}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </main>
+</BaseLayout>

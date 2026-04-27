@@ -1,0 +1,16 @@
+---
+import type { CTAProps } from '../../content.config';
+import '../../styles/cta.css';
+
+type Props = CTAProps;
+
+const { id, heading, button, note } = Astro.props;
+---
+
+<section class="cta" id={id}>
+  <div class="cta__container">
+    <h2 class="cta__heading">{heading}</h2>
+    <a href={button.href} class="cta__button">{button.label}</a>
+    {note && <p class="cta__note">{note}</p>}
+  </div>
+</section>

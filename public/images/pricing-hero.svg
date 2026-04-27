@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F7F6F2"/>
+  <defs>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.2" fill="#E4E2DC"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#dots)"/>
+
+  <!-- Card 1 — Starter  x=44, w=210 -->
+  <rect x="44" y="140" width="210" height="316" rx="8" fill="#FFFFFF" stroke="#E4E2DC" stroke-width="1.5"/>
+  <rect x="44" y="140" width="210" height="6" rx="4" fill="#E4E2DC"/>
+  <rect x="68" y="166" width="100" height="9" rx="3" fill="#0A0A0A" opacity="0.1"/>
+  <rect x="68" y="186" width="64" height="24" rx="3" fill="#0A0A0A" opacity="0.08"/>
+  <rect x="68" y="222" width="166" height="1" fill="#E4E2DC"/>
+  <!-- rows -->
+  <circle cx="80" cy="242" r="5" fill="#E4E2DC"/><circle cx="80" cy="242" r="3" fill="#E4E2DC"/>
+  <rect x="92" y="238" width="126" height="5" rx="2" fill="#6B7280" opacity="0.22"/>
+  <circle cx="80" cy="260" r="5" fill="#00C17A" opacity="0.25"/><circle cx="80" cy="260" r="3" fill="#00C17A" opacity="0.7"/>
+  <rect x="92" y="256" width="110" height="5" rx="2" fill="#6B7280" opacity="0.2"/>
+  <circle cx="80" cy="278" r="5" fill="#00C17A" opacity="0.25"/><circle cx="80" cy="278" r="3" fill="#00C17A" opacity="0.7"/>
+  <rect x="92" y="274" width="140" height="5" rx="2" fill="#6B7280" opacity="0.2"/>
+  <circle cx="80" cy="296" r="5" fill="#E4E2DC"/><circle cx="80" cy="296" r="3" fill="#E4E2DC"/>
+  <rect x="92" y="292" width="96" height="5" rx="2" fill="#6B7280" opacity="0.14"/>
+  <circle cx="80" cy="314" r="5" fill="#E4E2DC"/><circle cx="80" cy="314" r="3" fill="#E4E2DC"/>
+  <rect x="92" y="310" width="116" height="5" rx="2" fill="#6B7280" opacity="0.14"/>
+  <!-- button -->
+  <rect x="68" y="392" width="166" height="34" rx="4" fill="#F7F6F2" stroke="#E4E2DC" stroke-width="1.5"/>
+  <rect x="100" y="405" width="102" height="8" rx="3" fill="#0A0A0A" opacity="0.14"/>
+
+  <!-- Card 2 — Pro (highlighted, taller)  x=290, w=228 -->
+  <rect x="290" y="76" width="228" height="448" rx="8" fill="#0A0A0A"/>
+  <rect x="290" y="76" width="228" height="6" rx="4" fill="#E84855"/>
+  <!-- popular badge -->
+  <rect x="340" y="56" width="128" height="28" rx="14" fill="#E84855"/>
+  <rect x="358" y="65" width="92" height="9" rx="4" fill="#FFFFFF" opacity="0.8"/>
+
+  <rect x="314" y="102" width="110" height="9" rx="3" fill="#FFFFFF" opacity="0.15"/>
+  <!-- price -->
+  <rect x="314" y="124" width="48" height="22" rx="3" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="368" y="131" width="38" height="9" rx="2" fill="#FFFFFF" opacity="0.25"/>
+  <rect x="314" y="160" width="182" height="1" fill="#FFFFFF" opacity="0.08"/>
+  <!-- rows -->
+  <circle cx="326" cy="180" r="5" fill="#E84855" opacity="0.3"/><circle cx="326" cy="180" r="3" fill="#E84855"/>
+  <rect x="338" y="176" width="148" height="5" rx="2" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="326" cy="200" r="5" fill="#E84855" opacity="0.3"/><circle cx="326" cy="200" r="3" fill="#E84855"/>
+  <rect x="338" y="196" width="128" height="5" rx="2" fill="#FFFFFF" opacity="0.18"/>
+  <circle cx="326" cy="220" r="5" fill="#E84855" opacity="0.3"/><circle cx="326" cy="220" r="3" fill="#E84855"/>
+  <rect x="338" y="216" width="158" height="5" rx="2" fill="#FFFFFF" opacity="0.18"/>
+  <circle cx="326" cy="240" r="5" fill="#E84855" opacity="0.3"/><circle cx="326" cy="240" r="3" fill="#E84855"/>
+  <rect x="338" y="236" width="118" height="5" rx="2" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="326" cy="260" r="5" fill="#E84855" opacity="0.3"/><circle cx="326" cy="260" r="3" fill="#E84855"/>
+  <rect x="338" y="256" width="140" height="5" rx="2" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="326" cy="280" r="5" fill="#FFFFFF" opacity="0.1"/><circle cx="326" cy="280" r="3" fill="#FFFFFF" opacity="0.15"/>
+  <rect x="338" y="276" width="106" height="5" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="326" cy="300" r="5" fill="#FFFFFF" opacity="0.1"/><circle cx="326" cy="300" r="3" fill="#FFFFFF" opacity="0.15"/>
+  <rect x="338" y="296" width="124" height="5" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <!-- button -->
+  <rect x="314" y="458" width="182" height="40" rx="4" fill="#E84855"/>
+  <rect x="350" y="473" width="110" height="10" rx="4" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Card 3 — Enterprise  x=554, w=210 -->
+  <rect x="554" y="140" width="210" height="316" rx="8" fill="#FFFFFF" stroke="#E4E2DC" stroke-width="1.5"/>
+  <rect x="554" y="140" width="210" height="6" rx="4" fill="#3D5AF1"/>
+  <rect x="578" y="166" width="100" height="9" rx="3" fill="#0A0A0A" opacity="0.1"/>
+  <rect x="578" y="186" width="64" height="24" rx="3" fill="#0A0A0A" opacity="0.08"/>
+  <rect x="578" y="222" width="166" height="1" fill="#E4E2DC"/>
+  <!-- rows -->
+  <circle cx="590" cy="242" r="5" fill="#3D5AF1" opacity="0.2"/><circle cx="590" cy="242" r="3" fill="#3D5AF1" opacity="0.7"/>
+  <rect x="602" y="238" width="126" height="5" rx="2" fill="#6B7280" opacity="0.22"/>
+  <circle cx="590" cy="260" r="5" fill="#3D5AF1" opacity="0.2"/><circle cx="590" cy="260" r="3" fill="#3D5AF1" opacity="0.7"/>
+  <rect x="602" y="256" width="110" height="5" rx="2" fill="#6B7280" opacity="0.2"/>
+  <circle cx="590" cy="278" r="5" fill="#3D5AF1" opacity="0.2"/><circle cx="590" cy="278" r="3" fill="#3D5AF1" opacity="0.7"/>
+  <rect x="602" y="274" width="140" height="5" rx="2" fill="#6B7280" opacity="0.2"/>
+  <circle cx="590" cy="296" r="5" fill="#3D5AF1" opacity="0.2"/><circle cx="590" cy="296" r="3" fill="#3D5AF1" opacity="0.7"/>
+  <rect x="602" y="292" width="96" height="5" rx="2" fill="#6B7280" opacity="0.2"/>
+  <circle cx="590" cy="314" r="5" fill="#3D5AF1" opacity="0.2"/><circle cx="590" cy="314" r="3" fill="#3D5AF1" opacity="0.7"/>
+  <rect x="602" y="310" width="116" height="5" rx="2" fill="#6B7280" opacity="0.2"/>
+  <!-- button -->
+  <rect x="578" y="392" width="166" height="34" rx="4" fill="#3D5AF1"/>
+  <rect x="608" y="405" width="106" height="8" rx="3" fill="#FFFFFF" opacity="0.7"/>
+</svg>
