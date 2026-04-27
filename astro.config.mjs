@@ -5,4 +5,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://eagapov-dev.github.io',
   base: '/lego',
+  output: 'static',
 });

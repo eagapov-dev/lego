@@ -5,6 +5,8 @@ import '../../styles/hero.css';
 type Props = HeroProps;
 
 const { title, subtitle, badge, cta, image, imageAlt } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const imageSrc = image.startsWith('/') ? `${base}${image}` : image;
 ---
 
 <section class="hero">
@@ -17,7 +19,7 @@ const { title, subtitle, badge, cta, image, imageAlt } = Astro.props;
     </div>
 
     <div class="hero__media">
-      <img src={image} alt={imageAlt} class="hero__image" />
+      <img src={imageSrc} alt={imageAlt} class="hero__image" />
     </div>
   </div>
 </section>
