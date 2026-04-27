@@ -12,7 +12,7 @@ const pages = await getCollection('pages');
     <ul class="index__list">
       {pages.map((page) => (
         <li>
-          <a href={`/${page.data.meta.slug}`} class="index__link">
+          <a href={`${import.meta.env.BASE_URL}/${page.data.meta.slug}`} class="index__link">
             <span class="index__page-title">{page.data.meta.title}</span>
             <span class="index__page-desc">{page.data.meta.description}</span>
           </a>
