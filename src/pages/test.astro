@@ -1,0 +1,43 @@
+---
+export async function getStaticPaths() {
+  const data = [
+    {
+      "category": "elektronika",
+      "product": "laptopy"
+    },
+    {
+      "category": "elektronika",
+      "product": "telefony"
+    },
+    {
+      "category": "elektronika",
+      "product": "słuchawki"
+    },
+    {
+      "category": "elekodzieżtronika",
+      "product": "koszule"
+    },
+    {
+      "category": "elekodzieżtronika",
+      "product": "spodnie"
+    },
+    {
+      "category": "dom",
+      "product": "meble"
+    },
+    {
+      "category": "dom",
+      "product": "oświetlenie"
+    },
+    {
+      "category": "dom",
+      "product": "dekoracje"
+    },
+  ]
+  return data.map((entry) => ({
+    params: { category: entry.category, product: entry.product },
+    props: { entry },
+  }));
+}
+
+---

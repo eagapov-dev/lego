@@ -6,7 +6,7 @@ meta:
 
 sections:
   - type: hero
-    title: "Prosty cennik. Zero niespodzianek."
+    title: "Prosty cennik. Zero niespodzianek. 11111111"
     subtitle: "Stała opłata, pełen zakres prac, jasny harmonogram. Widzisz dokładnie, za co płacisz — zanim podpiszesz umowę."
     cta:
       label: "Porównaj pakiety"
